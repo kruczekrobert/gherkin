@@ -1,4 +1,4 @@
-module github.com/kruczekrobert/gherkin/go/v28
+module github.com/kruczekrobert/gherkin/go
 
 require (
 	github.com/cucumber/gherkin/go/v28 v28.0.0
