@@ -10,7 +10,7 @@ import (
 	"flag"
 	"fmt"
 	gherkin "github.com/cucumber/gherkin/go/v28"
-	"github.com/cucumber/messages/go/v21"
+	"github.com/cucumber/messages/go/v24"
 	"os"
 )
 
