@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	gherkin "github.com/cucumber/gherkin/go/v28"
 	"github.com/cucumber/messages/go/v24"
+	gherkin "github.com/kruczekrobert/gherkin/go"
 	"os"
 )
 

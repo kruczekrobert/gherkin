@@ -1,7 +1,6 @@
 module github.com/kruczekrobert/gherkin/go
 
 require (
-	github.com/cucumber/gherkin/go/v28 v28.0.0
 	github.com/cucumber/messages/go/v24 v24.0.1
 	github.com/stretchr/testify v1.9.0
 )
