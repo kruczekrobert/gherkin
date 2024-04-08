@@ -1632,6 +1632,12 @@ func (ctxt *parseContext) matchAt16(line *Line) (newState int, err error) {
 		ctxt.build(token)
 		return 16, err
 	}
+	if ok, token, err := ctxt.matchDocStringSeparator(line); ok {
+		ctxt.endRule(RuleTypeDataTable)
+		ctxt.startRule(RuleTypeDocString)
+		ctxt.build(token)
+		return 47, err
+	}
 	if ok, token, err := ctxt.matchStepLine(line); ok {
 		ctxt.endRule(RuleTypeDataTable)
 		ctxt.endRule(RuleTypeStep)
